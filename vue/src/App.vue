@@ -16,6 +16,9 @@
 export default {
   created() {
     this.$store.dispatch("cosmos/init");
+    //this.$store.dispatch("cosmos/entitySubmit", {type: "move", module: "tttv2"});
+    this.$store.dispatch("cosmos/entitySubmit", {type: "match", module: "tttv2"});
+    this.$store.dispatch("cosmos/entityFetch", {type: "match", module: "tttv2"});
   },
 };
 </script>

@@ -13,3 +13,14 @@ const (
 	// QuerierRoute to be used for querier msgs
 	QuerierRoute = ModuleName
 )
+
+const (
+	MatchPrefix = "match-value-"
+	MatchCountPrefix = "match-count-"
+)
+		
+const (
+	MovePrefix = "move-value-"
+	MoveCountPrefix = "move-count-"
+)
+		

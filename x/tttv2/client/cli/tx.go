@@ -23,6 +23,12 @@ func GetTxCmd(cdc *codec.Codec) *cobra.Command {
 
 	tttv2TxCmd.AddCommand(flags.PostCommands(
     // this line is used by starport scaffolding # 1
+		GetCmdCreateMove(cdc),
+		GetCmdSetMove(cdc),
+		GetCmdDeleteMove(cdc),
+		GetCmdCreateMatch(cdc),
+		GetCmdSetMatch(cdc),
+		GetCmdDeleteMatch(cdc),
 	)...)
 
 	return tttv2TxCmd

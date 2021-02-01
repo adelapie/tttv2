@@ -30,6 +30,10 @@ func GetQueryCmd(queryRoute string, cdc *codec.Codec) *cobra.Command {
 	tttv2QueryCmd.AddCommand(
 		flags.GetCommands(
       // this line is used by starport scaffolding # 1
+			GetCmdListMove(queryRoute, cdc),
+			GetCmdGetMove(queryRoute, cdc),
+			GetCmdListMatch(queryRoute, cdc),
+			GetCmdGetMatch(queryRoute, cdc),
 		)...,
 	)
 
