@@ -1,6 +1,8 @@
 # tttv2
 
-**tttv2** is a blockchain application built using Cosmos SDK and Tendermint and generated with [Starport](https://github.com/tendermint/starport).
+**tttv2** is a Tic-Tac-Toe blockchain application built using Cosmos SDK and Tendermint and generated with [Starport](https://github.com/tendermint/starport).
+
+![alt text](front.png)
 
 ## Get started
 
